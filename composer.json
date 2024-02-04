@@ -12,6 +12,11 @@
         "beberlei/assert": "^3.3",
         "phpunit/phpunit": "^9.6"
     },
+    "autoload": {
+        "psr-4": {
+            "Blocks\\Localisation\\":"src/class"
+        }
+    },
     "authors": [
         {
             "name": "Stephen Stephenson",
