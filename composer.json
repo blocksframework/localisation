@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Blocks\\Localisation\\":"src/class"
+            "Blocks\\Localisation\\": ["src/class", "src/trait"]
         }
     },
     "authors": [
